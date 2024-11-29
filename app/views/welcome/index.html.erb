@@ -1,2 +1,8 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<%= render 'header' %>
+<div class="max-w-2xl mx-auto ">
+  <%= render 'welcome_message' %>
+  <div class="mt-4 text-lg text-gray-600">
+    Demo text below the welcome message.
+  </div>
+</div>
+<%= render 'footer' %>
